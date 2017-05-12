@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="554.0" prefWidth="696.0" style="-fx-background-color: burlywood;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgudangrotinenek.FXMLDocumentController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="476.0" layoutY="78.0" stroke="WHITE" strokeType="INSIDE" width="232.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9e958b" height="88.0" layoutX="1.0" layoutY="332.0" stroke="WHITE" strokeType="INSIDE" width="232.7" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dddbd8" height="135.0" layoutX="1.0" layoutY="419.0" stroke="WHITE" strokeType="INSIDE" width="232.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="476.0" layoutX="232.0" layoutY="78.0" stroke="WHITE" strokeType="INSIDE" width="232.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a19688" height="88.0" layoutX="232.0" layoutY="332.0" stroke="WHITE" strokeType="INSIDE" width="232.7" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dad9d7" height="135.0" layoutX="232.0" layoutY="419.0" stroke="WHITE" strokeType="INSIDE" width="232.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="476.0" layoutX="464.0" layoutY="78.0" stroke="WHITE" strokeType="INSIDE" width="232.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ab9e8f" height="88.0" layoutX="463.0" layoutY="332.0" stroke="WHITE" strokeType="INSIDE" width="232.7" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7d4d0" height="135.0" layoutX="463.0" layoutY="419.0" stroke="WHITE" strokeType="INSIDE" width="232.0" />
+      <Text layoutX="78.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lemari A">
+         <font>
+            <Font name="Gabriola" size="27.0" />
+         </font>
+      </Text>
+      <Label fx:id="lbNamaA" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="52.0" layoutY="174.0" lineSpacing="5.0" prefHeight="142.0" prefWidth="96.0" text="Roti Srikaya">
+         <font>
+            <Font name="Sertig" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbStokA" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="166.0" layoutY="174.0" lineSpacing="5.0" prefHeight="142.0" prefWidth="42.0" text="1000">
+         <font>
+            <Font name="Sertig" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbNoA" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="14.0" layoutY="174.0" lineSpacing="5.0" prefHeight="142.0" prefWidth="28.0" text="1" textAlignment="CENTER">
+         <font>
+            <Font name="Sertig" size="14.0" />
+         </font>
+      </Label>
+      <Text layoutX="14.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rak" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="52.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama" wrappingWidth="96.00001001358032">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="166.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stok" wrappingWidth="42.00000178813934">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tfRakA" alignment="TOP_CENTER" layoutX="14.0" layoutY="382.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfUnitA" alignment="TOP_CENTER" layoutX="58.0" layoutY="382.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <Text layoutX="25.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rak" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="67.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="103.0" layoutY="382.0" mnemonicParsing="false" onAction="#eventTambahStokA" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: #a06e2c;" text="+" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="134.0" layoutY="382.0" mnemonicParsing="false" onAction="#eventKurangStokA" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: #a06e2c;" text="-" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Text layoutX="16.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stok Roti">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Penggantian Roti">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tfGantiA" layoutX="81.0" layoutY="452.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfRotiA" layoutX="81.0" layoutY="480.0" prefHeight="25.0" prefWidth="122.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="510.0" mnemonicParsing="false" onAction="#eventGantiRotiA" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #a06e2c;" text="Ganti" textAlignment="CENTER" textFill="WHITE" />
+      <Text layoutX="19.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rak :">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="19.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Roti Baru :" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="315.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lemari B">
+         <font>
+            <Font name="Gabriola" size="27.0" />
+         </font>
+      </Text>
+      <Label fx:id="lbNamaB" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="289.0" layoutY="174.0" lineSpacing="5.0" prefHeight="142.0" prefWidth="96.0" text="Roti Srikaya">
+         <font>
+            <Font name="Sertig" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbStokB" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="403.0" layoutY="174.0" lineSpacing="5.0" prefHeight="142.0" prefWidth="42.0" text="1000">
+         <font>
+            <Font name="Sertig" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbNoB" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="251.0" layoutY="174.0" lineSpacing="5.0" prefHeight="142.0" prefWidth="28.0" text="1" textAlignment="CENTER">
+         <font>
+            <Font name="Sertig" size="14.0" />
+         </font>
+      </Label>
+      <Text layoutX="251.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rak" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="289.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama" wrappingWidth="96.00001001358032">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="403.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stok" wrappingWidth="42.00000178813934">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tfRakB" alignment="TOP_CENTER" layoutX="251.0" layoutY="382.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfUnitB" alignment="TOP_CENTER" layoutX="295.0" layoutY="382.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <Text layoutX="262.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rak" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="304.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="340.0" layoutY="382.0" mnemonicParsing="false" onAction="#eventTambahStokB" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: #a06e2c;" text="+" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="371.0" layoutY="382.0" mnemonicParsing="false" onAction="#eventKurangStokB" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: #a06e2c;" text="-" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Text layoutX="253.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stok Roti">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="255.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Penggantian Roti">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tfGantiB" layoutX="318.0" layoutY="452.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfRotiB" layoutX="318.0" layoutY="480.0" prefHeight="25.0" prefWidth="122.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="318.0" layoutY="510.0" mnemonicParsing="false" onAction="#eventGantiRotiB" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #a06e2c;" text="Ganti" textAlignment="CENTER" textFill="WHITE" />
+      <Text layoutX="256.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rak :">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="547.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lemari C">
+         <font>
+            <Font name="Gabriola" size="27.0" />
+         </font>
+      </Text>
+      <Label fx:id="lbNamaC" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="521.0" layoutY="174.0" lineSpacing="5.0" prefHeight="142.0" prefWidth="96.0" text="Roti Srikaya">
+         <font>
+            <Font name="Sertig" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbStokC" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="635.0" layoutY="174.0" lineSpacing="5.0" prefHeight="142.0" prefWidth="42.0" text="1000">
+         <font>
+            <Font name="Sertig" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbNoC" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="483.0" layoutY="174.0" lineSpacing="5.0" prefHeight="142.0" prefWidth="28.0" text="1" textAlignment="CENTER">
+         <font>
+            <Font name="Sertig" size="14.0" />
+         </font>
+      </Label>
+      <Text layoutX="483.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rak" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="521.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama" wrappingWidth="96.00001001358032">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="635.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stok" wrappingWidth="42.00000178813934">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tfRakC" alignment="TOP_CENTER" layoutX="483.0" layoutY="382.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfUnitC" alignment="TOP_CENTER" layoutX="527.0" layoutY="382.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <Text layoutX="494.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rak" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="536.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="572.0" layoutY="382.0" mnemonicParsing="false" onAction="#eventTambahStokC" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: #a06e2c;" text="+" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="603.0" layoutY="382.0" mnemonicParsing="false" onAction="#eventKurangStokC" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: #a06e2c;" text="-" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Text layoutX="485.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stok Roti">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="487.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Penggantian Roti">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tfGantiC" layoutX="550.0" layoutY="452.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfRotiC" layoutX="550.0" layoutY="480.0" prefHeight="25.0" prefWidth="122.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="550.0" layoutY="510.0" mnemonicParsing="false" onAction="#eventGantiRotiC" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #a06e2c;" text="Ganti" textAlignment="CENTER" textFill="WHITE" />
+      <Text layoutX="488.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rak :">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="254.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Roti Baru :" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="486.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Roti Baru :" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="182.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rumah Nenek" textAlignment="CENTER" wrappingWidth="341.23828125">
+         <font>
+            <Font name="Bodoni Bd BT Bold Italic" size="38.0" />
+         </font>
+      </Text>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
